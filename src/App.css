@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  height: 48px;
+}
+
+.gif-img{
+  width: 200px;
+  height: 200px;
+}
+
+.gif-container{
+  width: 800px;
+  height: calc(100vh - 48px);
+  overflow: scroll;
+}
